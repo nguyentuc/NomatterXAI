@@ -1,0 +1,34 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.so
+
+# Virtual environment
+venv/
+.env
+
+# Bias eval
+BiasEval
+
+# Jupyter Notebook checkpoints
+checkpoints/
+TextAttack/checkpoints/
+TextAttack/baselines/
+TextAttack/tuc_logs/
+TextAttack/tuc_logs_bias_correlation/
+TextAttack/user_study_examples/
+# VS Code workspace files
+.vscode/
+
+jsons/
+jsons_jigsaw/
+emotion_jsons/
+hatespeech_jsons/
+model_training/
+
+# log gpt and conceptnet call
+gpt_calls_emotion.csv
+gpt_calls_hatespeech.csv
+gpt_calls_jigsaw.csv
+gpt_calls.csv
+textattack_log.csv
