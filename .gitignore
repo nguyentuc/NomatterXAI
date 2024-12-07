@@ -14,8 +14,8 @@ BiasEval
 checkpoints/
 TextAttack/checkpoints/
 TextAttack/baselines/
-TextAttack/tuc_logs/
-TextAttack/tuc_logs_bias_correlation/
+TextAttack/logs/
+TextAttack/logs_bias_correlation/
 TextAttack/user_study_examples/
 # VS Code workspace files
 .vscode/
@@ -32,3 +32,56 @@ gpt_calls_hatespeech.csv
 gpt_calls_jigsaw.csv
 gpt_calls.csv
 textattack_log.csv
+
+# TextAttack logs
+# cache for test output
+.cache
+
+# compiled python files
+__pycache__/
+
+# run logs
+outputs/
+
+# IDE files
+.c9*
+.idea/
+
+# Jupyter notebook files
+.ipynb_checkpoints/
+
+# Sphinx documentation
+docs/_build/
+
+# Packaging
+*.egg-info/
+
+# Files from IDES
+.*.py
+
+# TF Hub modules
+tensorflow-hub
+
+# for Macs
+.DS_Store
+
+# build outputs for PyPI
+build/
+dist/
+
+# Weights & Biases outputs
+wandb/
+
+# Tensorboard logs
+runs/
+
+# checkpoints
+checkpoints/
+
+# vim
+*.swp
+
+.vscode
+*.csv
+!tests/sample_outputs/csv_attack_log.csv
+tests/test_command_line/attack_log.txt
