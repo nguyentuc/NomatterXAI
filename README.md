@@ -14,7 +14,7 @@ conda create --name NomatterXAI python==3.11
 pip install -r requirements.txt
 ```
 
-# Sample script to run in the main/ folder
+### Running sample scripts can be found in the NoMatterXAI/TextAttack/main/ folder
 
 ### Citation
 
