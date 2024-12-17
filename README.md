@@ -24,6 +24,6 @@ If our work aids your research, please consider citing it as follows:
 @article{nguyen2024nomatterxai,
   title={NoMatterXAI: Generating" No Matter What" Alterfactual Examples for Explaining Black-Box Text Classification Models},
   author={Nguyen, Tuc and Michels, James and Shen, Hua and Le, Thai},
-  journal={arXiv preprint arXiv:2408.10528},
-  year={2024}
+  journal={AAAI},
+  year={2025}
 }
